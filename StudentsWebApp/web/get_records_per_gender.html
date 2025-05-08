@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Get records per gender page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Get records per gender</h1>
+        <p>
+            Enter the gender below
+        </p>
+        <form action="GetRecordsPerGenderServlet.do" method="POST">
+            <table>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <select name="gender">
+                            <option value="F">Female</option>
+                            <option value="M">Male</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="GET RECORDS"/></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
